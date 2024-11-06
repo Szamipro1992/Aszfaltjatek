@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Bevezető szekció */
+.bg-light {
+    background-color: #f4f4f4 !important;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+p.lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Szabályok szekció */
+.rules {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.rules h2 {
+    color: #27ae60;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.rules ul {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rules .list-group-item {
+    background-color: #fafafa;
+    border-color: #ddd;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+/* Feladatok szekció */
+.tasks h2 {
+    color: #2980b9;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.tasks ul {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tasks .list-group-item {
+    background-color: #e9ecef;
+    border-color: #ccc;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+
+.gallery img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery .col-md-4 {
+    margin-bottom: 30px;
+}
+
+/* Mobilra optimalizálás */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    .list-group-item {
+        padding: 15px;
+        font-size: 1rem;
+    }
+}
+a{
+    text-decoration: none;
+}
